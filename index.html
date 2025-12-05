@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informed Investor</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #272729;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #515154;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      color: #e3e4e6;
+      margin: 0;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color:#e3e4e6;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(145deg, #515154, #272729);
+      border-bottom: 1px solid #656566;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      color: #e3e4e6;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #e3e4e6;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 3rem 1rem;
+      gap: 3rem;
+    }
+
+    /* PROFILE CARD */
+    .profile {
+      max-width: 600px;
+      text-align: center;
+      background: #515154;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ffffff55;
+    }
+
+    .profile h2 {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+    }
+
+    .profile h3 {
+      margin-top: 0.5rem;
+      font-weight: 400;
+      color: #c0c1c4;
+    }
+
+    .social-links {
+      margin-top: 1.5rem;
+    }
+
+    .social-links a {
+      color: #ffffff;
+      margin: 0 8px;
+      text-decoration: none;
+      font-size: 1.3rem;
+    }
+
+    .about-image-box {
+  background-color: #515154; /* soft dark green box */
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-box img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #656566;
+}
+
+    /* ABOUT SECTION */
+    .about {
+      max-width: 900px;
+      background: #515154;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .about h1 {
+      margin-top: 0;
+      color: #c0c1c4;
+    }
+
+    .about p {
+      line-height: 1.6;
+    }
+
+    button {
+      background-color: #243b35;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.4rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #c0c1c4;
+      color: #272729;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    .section h2 {
+      color: #c0c1c4;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #656566;
+      font-size: 0.9rem;
+      background-color: #272729;
+      border-top: 1px solid #656566;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Informed Investor</h1>
+    <nav>
+      <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="main">
+    <h2>Elara International Company — Fresh Look at a Customer-Focused Investment Company</h2>
+    <p>Complete analysis of the company | Prevention of fraud | Safe investment</p>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="profile">
+      <img src="your-photo.png" alt="Profile Photo">
+      <h2>Elara International Company</h2>
+      <h3>elara-ic.com<br>Switzerland</h3>
+         </div>
+
+    <div class="about" id="about">
+      <h1>About company</h1>
+      <p>
+      Choosing the right investment partner can feel overwhelming, especially for those who are just starting their financial journey. 
+        Elara stands out as a company that not only understands this challenge but actively works to make investing simpler, clearer, 
+        and more approachable for everyone. Their mix of personal guidance, flexible strategies, and a strong reputation has earned them the trust of many satisfied clients.
+<p>
+  <h1>Personal account manager from day one</h1>
+  <p>
+One of the biggest advantages Elara offers is immediate access to a dedicated account manager.
+For beginners, this is a huge relief. Instead of guessing what to do or learning everything alone, 
+    clients get someone who explains each step, answers questions, and helps them move forward with confidence.
+</p>
+What makes Elara even more impressive is the wide choice of account managers. This means the company doesn’t assign clients randomly — they match them with 
+      someone whose approach, communication style, and experience level truly fits their needs. It feels less like dealing with a company and more
+      like having a knowledgeable partner by your side.
+      </p>
+
+      <div class="section" id="interests">
+        <h2>Choose the risk strategy that fits your lifestyle</h2>
+        <p>
+        No two investors are the same, and Elara has built its services around that idea. Each client can choose a risk strategy that matches their personal 
+          comfort level, whether they prefer a conservative approach, a balanced one, or a more dynamic strategy.
+        </p>
+  The goal is simple: make sure every investor can grow at their own pace without feeling pressured or overwhelmed.
+</p>
+         <h2>Transparency that builds trust</h2>
+        <p>
+       Elara’s transparency policy is one of the biggest reasons why investors feel comfortable working with them.
+The company openly explains:
+        </p> 
+<li>  how it operates</li>
+<li>  what clients can expect</li>
+<li>  how funds are managed</li>
+<li>  what risks are involved</li>
+        <p>   
+There are no confusing terms hidden in small print — just straightforward, easy-to-understand information. 
+          This level of honesty gives clients a complete picture and reinforces the idea that Elara aims to build long-term relationships, not quick wins.
+              </p>
+   
+        <h2>A partner you can count on</h2>
+        <ul>
+      Elara has managed to create an environment where both beginners and experienced investors feel supported. With personal account managers, 
+          educational guidance, customizable risk strategies, and a strong reputation backed by positive reviews, it’s easy to see why so many 
+          people are choosing Elara as their trusted investment company.
+
+              </ul>
+          
+         <div class="about-image-box">
+  <img src="your-photo2.jpg" alt="About section image">
+</div>
+      </div>
+    </div>
+   </div>
+
+
